@@ -1,0 +1,11 @@
+[package]
+name = "rocksdb-flush-safety"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocksdb = { version = "0.22.0", default-features = false, features = ["snappy"] }
+parking_lot = "0.12.3"
+log = "0.4.21"
+rand = "0.8.5"
+clap = {  version = "4.5.4", features = ["derive"] }
